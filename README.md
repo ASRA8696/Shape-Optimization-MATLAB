@@ -10,13 +10,27 @@ The analysis will be one-dimensional, meaning that all variables will be assumed
 
 The discretization method will be Finite Differences with uniform space-step and variable time-step, and the scheme will be MacCormack's, which is an explicit 2-step scheme.
 
-Two boundary conditions will be used for the supersonic boundary:
 
-floating variables (extrapolation) which is valid for high chamber pressure and/or low external pressure. Only valid for full supersonic flow at the boundary. No shock capturing.
-applied external pressure: more accurate and general (valid for subsonic and supersonic flow) but unstable for high chamber pressure and/or low external pressure. This boundary condition can capture shock formation after the throat, as we will show later.
-The adimensianlized nozzle profiles that we will compare are:
-
+The non-dimensianlized nozzle profiles that we will compare are:
 
 
    ![shape-function](https://user-images.githubusercontent.com/79316741/185670660-4f5cfa6d-72b7-44cf-ac4f-07a98414e1c7.jpg)
+
+
+STEADY STATE PROFILES FOR FULLY EXPANDED FLOWS WITHOUT SHOCK
+
+https://user-images.githubusercontent.com/79316741/185671430-132acfc0-2eb7-4e4f-8402-ce1c7582be07.mp4
+
+
+STEADY STATE PROFILES FOR FLOWS WITH A NORMAL SHOCK
+
+https://user-images.githubusercontent.com/79316741/185671587-3e933def-cb2b-42c2-9d64-8697a22cac29.mp4
+
+2D CONTOUR PROFILES OF NORMAL SHOCK
+
+https://user-images.githubusercontent.com/79316741/185672420-423e9793-fec5-4823-a87d-82bb4d77724d.mp4
+
+ 
+
+
 
