@@ -16,3 +16,7 @@ floating variables (extrapolation) which is valid for high chamber pressure and/
 applied external pressure: more accurate and general (valid for subsonic and supersonic flow) but unstable for high chamber pressure and/or low external pressure. This boundary condition can capture shock formation after the throat, as we will show later.
 The adimensianlized nozzle profiles that we will compare are:
 
+
+
+   ![shape-function](https://user-images.githubusercontent.com/79316741/185670660-4f5cfa6d-72b7-44cf-ac4f-07a98414e1c7.jpg)
+
