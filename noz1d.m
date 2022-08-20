@@ -7,29 +7,29 @@ close
 clc
 
 
-L = 1; %Nozzle length [m]
+L = 1;                  %Nozzle length [m]
 Nx = 201;
 x = linspace(0,L,Nx);
 tfin = 2.5;             % Dimensionless time. 
                         % Represents number of times sound waves 
                         % can travel length L of Nozzle
 
-patm = 101325;  %[Pa]
+patm = 101325;         %[Pa]
 pres = 100*patm;
 pext0 = patm;
-Tres = 1273;    %[K]
-Text0 = 300;    %[K]
+Tres = 1273;           %[K]
+Text0 = 300;           %[K]
 
 Tref = Tres;
 pref = pres;
 
-gamma = 1.4;          % cp/cv in ideal gas for air         
-mw_air = 28.97/1000;  % molecular weight of air [kg/mol]
-R = 8.314;            % Ideal gas constant [J/(mol*K)]
+gamma = 1.4;                   % cp/cv in ideal gas for air         
+mw_air = 28.97/1000;           % molecular weight of air [kg/mol]
+R = 8.314;                     % Ideal gas constant [J/(mol*K)]
 
 %Derived params
-Rair = R/mw_air;      % Mass ideal gas constant for air [J/(kg*K)]
-cv = Rair/(gamma-1);  % specific heat of air at constant volume [J/(kg*K)]
+Rair = R/mw_air;               % Mass ideal gas constant for air [J/(kg*K)]
+cv = Rair/(gamma-1);           % specific heat of air at constant volume [J/(kg*K)]
 
 % Derived reference state variables
 eref = cv*Tref;                % specific energy at reference state [J/kg]
