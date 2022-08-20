@@ -1,6 +1,4 @@
-# CD-Nozzle
-Shape optimization study of a rocket nozzle using MATLAB
-
+# Shape optimization study of a rocket nozzle using MATLAB
 
 Nozzles are aerospace components found in propulsion devices such as turbojet engines or rocket engines. Its purpose is to accelerate high-pressure, high-temperature gases as much as possible to get optimal thrust for vehicle propulsion, according to Newton's 3rd law.
 
