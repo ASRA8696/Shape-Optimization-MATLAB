@@ -30,7 +30,20 @@ https://user-images.githubusercontent.com/79316741/185671587-3e933def-cb2b-42c2-
 
 https://user-images.githubusercontent.com/79316741/185672420-423e9793-fec5-4823-a87d-82bb4d77724d.mp4
 
- 
+THRUST & SPECIFIC IMPULSE CALCULATION
+
+There are two key indicators for performance of an engine nozzle: Thrust force and Specific impulse.
+
+Thrust is the force that will accelerate the rocket. It strongly depends on the scale of the nozzle (the bigger, the more thrust)
+
+Specific impulse is a measure of the thrust performance of a nozzle, regardless of its scale, so it only depends on the nozzle shape and operating conditions (reservoir pressure and temperature, and external pressure).
+
+
+![thrust](https://user-images.githubusercontent.com/79316741/185731575-6b8e2f81-f045-4353-9263-e122a8df4396.jpg)
+
+
+![impulse](https://user-images.githubusercontent.com/79316741/185731580-46eeea92-7598-4f0c-a30a-6120b655f65f.jpg)
+
 
 
 
